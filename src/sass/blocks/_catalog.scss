@@ -22,7 +22,7 @@
         transform: skewX(-25deg);
         margin: 0 5px;
         cursor: pointer;
-        transition: .5s all;
+        transition: 0.5s all;
         &:hover {
             box-shadow: 3px 3px 20px $main-color;
             border: none;
@@ -34,7 +34,6 @@
             color: #fff;
             background-color: $main-color;
             border: none;
-
         }
     }
     &__content {
@@ -114,9 +113,9 @@
         }
         &__content {
             width: 50%;
-            margin-right: 0;
+            margin-right: 0px;
             transform: translateX(-100%);
-            transition: .5s all;
+            transition: 0.5s all;
             &_active {
                 transform: translateX(0%);
                 margin-right: 20px;
@@ -128,7 +127,7 @@
             margin-left: 20px;
             transform: translateX(0%);
             padding-right: 20px;
-            transition: .5s all;
+            transition: 0.5s all;
             padding-left: 19px;
             margin-bottom: 0;
             list-style-type: none;
@@ -138,7 +137,7 @@
             }
             li {
                 position: relative;
-                color: #555;
+                color: #555555;
                 font-size: 14px;
                 font-weight: 300;
                 margin-bottom: 20px;

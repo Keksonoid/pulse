@@ -9,7 +9,7 @@
         margin-top: 90px;
     }
     &__header {
-        color: #fff;
+        color: #ffffff;
         font-size: 42px;
         font-weight: 700;
         text-transform: uppercase;
@@ -17,7 +17,7 @@
     }
     &__subheader {
         margin-top: 17px;
-        color: #fff;
+        color: #ffffff;
         font-size: 24px;
         line-height: 24px;
         font-weight: 500;
@@ -32,7 +32,7 @@
     &__icon {
         width: 108px;
         text-align: center;
-        color: #fff;
+        color: #ffffff;
         font-size: 14px;
         font-weight: 500;
         img {
@@ -42,14 +42,14 @@
         }
     }
     &__link {
-        color: #fff;
+        color: #ffffff;
         font-size: 16px;
         font-weight: 500;
         margin-top: 18px;
         a {
-            color: #fff;
-            text-decoration: underline;
+            color: #ffffff;
             text-transform: uppercase;
+            text-decoration: underline;
         }
     }
 }
